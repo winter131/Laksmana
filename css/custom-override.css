@@ -1058,3 +1058,15 @@ body { padding-top:0; }
     color: #fff;
     transform: scale(1.1);
 }
+
+/* ============================================================
+   SUBMENU FIX & SCROLL TO TOP HIDE
+   ============================================================ */
+.ve-nav ul .ve-dropdown li a {
+    font-size: 16px !important;
+    padding: 12px 20px !important;
+}
+
+#scrollUp, .scroll-to-top, .back-to-top, .scrollup {
+    display: none !important;
+}

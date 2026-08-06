@@ -1371,3 +1371,14 @@ body { padding-top:0; }
     /* Prevent overriding the inline background image */
     background-color: transparent !important;
 }
+
+/* ============================================================
+   DISABLE HOVER MOVEMENT ON BENTO HERO IMAGE
+   ============================================================ */
+.ve-bento-img {
+    transition: none !important;
+}
+.ve-bento-img:hover {
+    transform: none !important;
+    background-position: center !important;
+}

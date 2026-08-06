@@ -1226,7 +1226,7 @@ body { padding-top:0; }
 
 .ve-bento-main h1 {
     font-size: 56px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.15;
     margin-bottom: 20px;
     color: #fff;
@@ -1323,7 +1323,7 @@ body { padding-top:0; }
 
 .ve-bento-stat h3 {
     font-size: 42px;
-    font-weight: 800;
+    font-weight: 500;
     color: #fff;
     margin-bottom: 5px;
 }
@@ -1364,3 +1364,10 @@ body { padding-top:0; }
 }
 
 .ve-loader-logo .ve-logo-text { color: #ffffff !important; }
+
+.ve-bento-img:hover {
+    box-shadow: none !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    /* Prevent overriding the inline background image */
+    background-color: transparent !important;
+}
